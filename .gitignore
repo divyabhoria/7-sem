@@ -1,0 +1,19 @@
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+
