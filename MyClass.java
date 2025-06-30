@@ -20,18 +20,30 @@ public class MyClass {
 public class MyClass {
     int a = 2;  // Instance variable (optional for this program)
 
+    class Student {
+    long roll_number = 2210990631L; // Use 'long' and end the number with 'L'
+}
+
+public class MainClass {
     public static void main(String[] args) {
-        int b;              // Declared and assigned, but not used
-        b = 1;
-        
-        int c = 10;
-        int d = 10;
-        int e = c + d;
-        
-        System.out.println(e);
-        System.out.println("My name is Divya Bhoria");
+        Student s = new Student();
+        System.out.println("Roll Number: " + s.roll_number);
     }
 }
+//     public static void main(String[] args) {
+//         int b;              // Declared and assigned, but not used
+//         b = 1;
+        
+//         int c = 10;
+//         int d = 10;
+//         int e = c + d;
+        
+        
+//         System.out.println(e);
+//         System.out.println("My name is Divya Bhoria");
+        
+//     }
+// }
 
 
 
