@@ -21,7 +21,7 @@ public class Calculator{
         Scanner sc=new Scanner(System.in);
         System.out.println("enter first number");
         int n1=sc.nextInt();
-        System.out.println("enter sencond number");
+        System.out.println("enter second number");
         int n2=sc.nextInt();
         int result=n1+n2;
         System.out.println("result is" +result);
